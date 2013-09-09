@@ -9,5 +9,19 @@ package lab2;
  * @author F03 H4MM3R
  */
 public class Game {
-    GameCharacter toon1 = new GameCharacter();
+    
+    private String saveFile;
+    
+    private GameCharacter toon1 = new GameCharacter();
+    private GameWorld world1 = new GameWorld();
+    
+    public String getSaveFile() {
+        return saveFile;
+    }
+
+    public void setSaveFile(String saveFile) {
+        this.saveFile = saveFile;
+    }
+    
+    
 }

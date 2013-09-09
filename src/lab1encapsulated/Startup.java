@@ -12,7 +12,9 @@ public class Startup {
     public static void main(String[] args) {
         
         Employee employee = new Employee();
-        
+        employee.setFirstName("Dave");
+        employee.setLastName("Bond");
+        employee.setSsn("222-22-2222");
         employee.completeOrientation();
 
         System.out.println("The employee's status is: " + employee.getStatus());
