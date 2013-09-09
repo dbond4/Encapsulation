@@ -10,7 +10,9 @@ package lab1encapsulated;
  */
 public class Startup {
     public static void main(String[] args) {
+        
         Employee employee = new Employee();
+        
         employee.completeOrientation();
 
         System.out.println("The employee's status is: " + employee.getStatus());
