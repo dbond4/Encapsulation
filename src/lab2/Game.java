@@ -9,5 +9,5 @@ package lab2;
  * @author F03 H4MM3R
  */
 public class Game {
-    
+    GameCharacter toon1 = new GameCharacter();
 }
